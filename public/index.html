@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Luxury Paradise Resort</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .container {
+            background: rgba(0,0,0,0.7);
+            padding: 30px;
+            width: 400px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: gold;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Luxury Paradise Resort</h1>
+
+    <div class="container">
+        <h2>Book Your Stay</h2>
+
+        <form action="/book" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="date" name="checkin" required>
+            <input type="date" name="checkout" required>
+            <button type="submit">Reserve Now</button>
+        </form>
+    </div>
+
+</body>
+</html>
