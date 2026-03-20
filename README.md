@@ -30,10 +30,3 @@ The backend listens on **PORT 8080**, and the Docker image can be run locally or
 - Node.js  
 - Docker  
 
-### Installation
-
-1. Clone this repository:
-
-```bash
-git clone <your-repo-link>
-cd luxury-resort
